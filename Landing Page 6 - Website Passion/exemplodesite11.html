@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Passion Adventure| Landing Page Design</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="exemplodesite11.css">
+
+</head>
+<body>
+		<section>
+			<header>
+				<a href="#" class="logo">Passion </a>
+				<div class="toggle"></div>
+			</header>
+
+			<div class="container">
+				<div class="box">
+					<div class="imgbox">
+						<img src="pexels-pixabay-159515 (1).jpg">
+					</div>
+				</div>
+				<div class="box">
+					<div class="imgbox">
+						<img src="pexels-jacob-colvin-1761282.jpg">
+					</div>
+				</div>
+				<div class="box">
+					<div class="imgbox">
+						<img src="pexels-gustavo-linhares-1839836.jpg">
+					</div>
+				</div>
+				<div class="box">
+					<div class="imgbox">
+						<img src="pexels-cameron-casey-1152854.jpg">
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<ul class="sci">
+					<li><a href="#"> Facebook</a></li>
+					<li><a href="#"> Twitter </a></li>
+					<li><a href="#"> Instagram </a></li>
+				</ul>
+				<p class="copyrightText"> &copy; Passion Adventure 2022</p>
+			</div>
+		</section>
+
+		<script type="text/javascript">
+
+			const imgbox = document.querySelectorAll('.imgbox');
+			imgbox.forEach(popup => popup.addEventListener('click',()=>{
+				popup.classList.toggle('active')
+			}))
+
+		</script>
+
+</body>
+</html>
